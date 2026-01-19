@@ -3,18 +3,18 @@ import icons from "@/constants/icons";
 import images from "@/constants/images";
 import React from "react";
 import {
-    Image,
-    ImageSourcePropType,
-    ScrollView,
-    Text,
-    TouchableOpacity,
-    View,
+  Image,
+  ImageSourcePropType,
+  ScrollView,
+  Text,
+  TouchableOpacity,
+  View,
 } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 interface SettingItemsProps {
   icon: ImageSourcePropType;
   title: string;
-  onpress?: () => void;
+  onPress?: () => void;
   textStyle?: string;
   showArrow?: boolean;
 }
